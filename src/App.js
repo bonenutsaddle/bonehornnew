@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Aboutus from "./components/pages/about-us/Aboutus";
 import Contact from "./components/pages/contact-us/Contact"
+import AllProductPage from "./components/pages/product/AllProductPage";
 
 const App = () => {
   return (
@@ -19,8 +20,9 @@ const App = () => {
         <Route path="/" element={<HomeCara />} />
         <Route path='/about-us' element={<Aboutus />} />
         <Route path='/contact-us' element={<Contact />} />
-      </Routes>
 
+      </Routes>
+      <AllProductPage />
       <Footer />
     </section>
   );

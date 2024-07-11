@@ -6,7 +6,7 @@ export const links = [
       {
         Head: "guitar components",
         sublink: [
-          { name: "bone nut", link: "/" },
+          { name: "bone nut", link: "/bone-nut" },
           { name: "horn saddle", link: "/" },
           { name: "guitar slides", link: "/" },
           { name: "guitar inlay", link: "/" },
@@ -29,7 +29,7 @@ export const links = [
           { name: "recone true stone", link: "/" },
         ],
       },
- 
+
       {
         Head: "viking craft",
         sublink: [
@@ -95,7 +95,7 @@ export const links = [
           { name: "PP-Comb", link: "/" },
         ],
       },
-     
+
       {
         Head: "pen blank & turning block",
         sublink: [
@@ -105,7 +105,7 @@ export const links = [
           { name: "X-grip", link: "/" },
         ],
       },
-  
+
       {
         Head: "shoe horn",
         sublink: [
@@ -115,8 +115,8 @@ export const links = [
       },
 
       {
-        Head:"horn cutlery spoon",
-        sublink:[
+        Head: "horn cutlery spoon",
+        sublink: [
           { name: "bone clasps", link: "/" },
           { name: "piono & organ keys", link: "/" },
           { name: "Powder horn", link: "/" },
