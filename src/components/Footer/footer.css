@@ -1,0 +1,72 @@
+.footer1 ul>li img {
+    width: 50%;
+    /* height: auto; */
+    background-color: #ececff;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+/* .footer1 ul>li p {
+    width: 85%;
+    text-align: justify;
+    font-size: 14px;
+} */
+
+.footer2 ul>li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer2 ul>li:hover {
+    color: rgb(219, 5, 5);
+    transition: .5s;
+    margin-left: 5px;
+}
+
+.footer4 ul>li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer4 ul>li:hover {
+    color: rgb(219, 5, 5);
+    transition: .5s;
+    margin-left: 5px;
+}
+
+.footer4 ul>li span svg {
+    font-size: 30px;
+    color: red;
+    margin-right: 10px;
+}
+
+.footer4 ul>li p {
+    font-size: 14px;
+}
+
+.follow-us {
+    cursor: pointer;
+}
+
+.follow-us svg {
+    font-size: 40px;
+    color: red;
+    /* cursor: pointer; */
+}
+
+.follow-us svg:hover {
+    color: black;
+    font-size: 39px;
+    transition: .3s;
+}
+
+.reserved-section .hr-line {
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 10px;
+}
+
+.reserved-section p {
+    padding-bottom: 15px;
+}

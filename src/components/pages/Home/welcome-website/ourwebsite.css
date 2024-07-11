@@ -1,0 +1,32 @@
+.ourwebsite-img img {
+
+    border-radius: 10px;
+}
+
+.ourwebsite-text {
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.ourwebsite-text h4 {
+    text-align: start;
+    color: rgb(20, 20, 20);
+}
+
+.ourwebsite-text p {
+    padding: 10px 0;
+    text-align: start;
+}
+
+
+/* Responsive design */
+
+@media only screen and (max-width: 647px) and (min-width: 350px) {
+    .ourwebsite-img img {
+        height: 300px;
+        width: fit-content;
+
+    }
+}

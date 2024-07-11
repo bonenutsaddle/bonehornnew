@@ -1,0 +1,64 @@
+body {
+    overflow-x: hidden;
+}
+
+.button-section-home {
+    display: flex;
+    justify-content: space-between
+}
+
+.button-section-home button {
+    border: 1px solid black;
+    margin: 40px 20px 0 0;
+    gap: 20px !important;
+    padding: 10px 20px;
+}
+
+.btn-home2 {
+    border: 1px solid #fff;
+    background-color: black;
+    color: white;
+}
+
+.button-section-home button:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+.btn-home2:hover {
+    background: transparent !important;
+    border: 1px solid #000 !important;
+    color: #000;
+    transition: .3s !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    background-color: #fff;
+    color: #000;
+    content: "next";
+    font-size: 25px !important;
+    padding: 10px 15px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    background-color: #fff;
+    color: #000;
+    font-size: 25px !important;
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 647px) and (min-width: 350px) {
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        display: none !important;
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+        display: none !important;
+    }
+}

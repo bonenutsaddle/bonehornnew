@@ -1,0 +1,20 @@
+.hover-dropdown-item {
+    width: 99%;
+    left: 5px;
+}
+
+.after-dropdown {
+    margin-left: 50%;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* To ensure the navbar appears on top of other elements */
+    background-color: #fff;
+    /* Optional: Set a background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
