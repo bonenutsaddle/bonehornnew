@@ -2,26 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-.whiteboneproduct-img {
-    border: 1px solid #21211f;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 250px;
-}
-
-.whiteboneproduct-img:hover {
-    border: 1px solid #ECB709;
-    -webkit-transition: border .2s;
-    transition: border .2s;
-    border-radius: 5px;
-}
-
-.whiteboneproduct-img img {
-    border-radius: 5%;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    padding: .5rem;
-}

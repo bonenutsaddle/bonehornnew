@@ -6,7 +6,7 @@ export const links = [
       {
         Head: "guitar components",
         sublink: [
-          { name: "bone nut", link: "/bone-nut" },
+          { name: "bone nut", link: "/guitar-component/bone-nut" },
           { name: "horn saddle", link: "/" },
           { name: "guitar slides", link: "/" },
           { name: "guitar inlay", link: "/" },

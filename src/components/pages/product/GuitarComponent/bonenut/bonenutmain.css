@@ -1,0 +1,143 @@
+.whiteboneproduct-img {
+    border: 1px solid #21211f;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+}
+
+.whiteboneproduct-img:hover {
+    border: 1px solid #ECB709;
+    -webkit-transition: border .2s;
+    transition: border .2s;
+    border-radius: 5px;
+}
+
+.whiteboneproduct-img img {
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: .5rem;
+}
+
+.bone-shaped-1 img {
+    object-fit: fill !important;
+}
+
+
+.bonewhitecard1 img {
+    object-fit: cover;
+}
+
+.bonewhitecard1 img:hover {
+    border: 1px solid white;
+}
+
+.bonewhitecard1 {
+    width: 100%;
+    height: 310px;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.bonewhitecard1:before {
+    content: '';
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+    width: 95%;
+    height: 290px;
+    border-radius: 5px;
+    margin-left: -11px;
+    margin-top: -11px;
+}
+
+.bonewhitecard1:hover:before {
+    opacity: 0.9;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.bonewhitecard1 .bonewhitecard1-content {
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    position: absolute;
+    top: 35px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.bonewhitecard1:hover .bonewhitecard1-content {
+    transform: scale(1);
+    padding: 10px;
+}
+
+.bonewhitecard1 .bonewhitecard1-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 25px;
+}
+
+.whitebonuttext-p {
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.whitebone-enq-btn {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.whitebone-enq-btn button {
+    padding: 6px 15px;
+}
+
+.whitebone-enq-btn1 {
+    background-color: #0958ec;
+}
+
+.whitebone-enq-btn1:hover {
+    background-color: #2f8806;
+    transition: .3s;
+}
+
+.whitebone-enq-btn2 {
+    background-color: #2f8806;
+}
+
+.whitebone-enq-btn2:hover {
+    background-color: #0958ec;
+    transition: .3s;
+}
+
+.bonenutslider .slick-prev {
+    top: 320px;
+    left: 290px;
+}
+
+.bonenutslider .slick-next {
+    right: 26px;
+    top: 320px;
+}
+
+.bonenutslider .slick-next:before,
+.bonenutslider .slick-prev:before {
+    color: #0958ec !important;
+}

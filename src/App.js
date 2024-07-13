@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Aboutus from "./components/pages/about-us/Aboutus";
 import Contact from "./components/pages/contact-us/Contact"
-import AllProductPage from "./components/pages/product/AllProductPage";
+import BoneNutProductRouting from "./components/pages/product/GuitarComponent/bonenut/BoneNutProductRouting";
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/contact-us' element={<Contact />} />
 
       </Routes>
-      <AllProductPage />
+      <BoneNutProductRouting />
       <Footer />
     </section>
   );
