@@ -6,8 +6,8 @@ export const links = [
       {
         Head: "guitar components",
         sublink: [
-          { name: "bone nut", link: "/guitar-component/bone-nut" },
-          { name: "horn saddle", link: "/" },
+          { name: "bone nut", link: "bone-nut" },
+          { name: "horn saddle", link: "horn-saddle" },
           { name: "guitar slides", link: "/" },
           { name: "guitar inlay", link: "/" },
           { name: "guitar inlay bids", link: "/" },
@@ -64,7 +64,6 @@ export const links = [
           { name: "agate burnisher", link: "/" },
         ],
       },
-
 
       {
         Head: "Cue stick components",

@@ -5,8 +5,10 @@ import HomeCara from "./components/pages/Home/homecarsoul/HomeCara";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Aboutus from "./components/pages/about-us/Aboutus";
-import Contact from "./components/pages/contact-us/Contact"
+import Contact from "./components/pages/contact-us/Contact";
 import BoneNutProductRouting from "./components/pages/product/GuitarComponent/bonenut/BoneNutProductRouting";
+import BoneNut from "./components/pages/product/GuitarComponent/bonenut/BoneNut";
+import WhiteBoneNutBlank from "./components/pages/product/GuitarComponent/bonenut/whitebonenutblank/WhiteBoneNutBlank";
 
 const App = () => {
   return (
@@ -18,11 +20,12 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<HomeCara />} />
-        <Route path='/about-us' element={<Aboutus />} />
-        <Route path='/contact-us' element={<Contact />} />
-
+        <Route path="/about-us" element={<Aboutus />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/products?" element={<BoneNut />} />
+        <Route path="/product/details?" element={<WhiteBoneNutBlank />} />
       </Routes>
-      <BoneNutProductRouting />
+
       <Footer />
     </section>
   );

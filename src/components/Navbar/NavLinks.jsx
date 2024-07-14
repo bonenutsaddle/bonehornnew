@@ -20,8 +20,9 @@ const NavLinks = () => {
               {link.name}
               <span className="text-xl md:hidden inline">
                 <ion-icon
-                  name={`${heading === link.name ? "chevron-up" : "chevron-down"
-                    }`}
+                  name={`${
+                    heading === link.name ? "chevron-up" : "chevron-down"
+                  }`}
                 ></ion-icon>
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
@@ -44,10 +45,18 @@ const NavLinks = () => {
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className={`${i >= 10 ? "text-sm capitalize font-semibold" : "text-xs text-gray-600 my-2.5"}`}>
+                          <li
+                            className={`${
+                              i >= 10
+                                ? "text-sm capitalize font-semibold"
+                                : "text-xs text-gray-600 my-2.5"
+                            }`}
+                          >
                             <Link
-                              to={slink.link}
-                              className={`${i >= 10 ? "" : "hover:text-orange-500"}`}
+                              to={`/products?headslug=${slink.link}`}
+                              className={`${
+                                i >= 10 ? "" : "hover:text-orange-500"
+                              }`}
                             >
                               {slink.name}
                             </Link>
@@ -82,16 +91,18 @@ const NavLinks = () => {
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
                       <ion-icon
-                        name={`${subHeading === slinks.Head
+                        name={`${
+                          subHeading === slinks.Head
                             ? "chevron-up"
                             : "chevron-down"
-                          }`}
+                        }`}
                       ></ion-icon>
                     </span>
                   </h1>
                   <div
-                    className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"
-                      }`}
+                    className={`${
+                      subHeading === slinks.Head ? "md:hidden" : "hidden"
+                    }`}
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
